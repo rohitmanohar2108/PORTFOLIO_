@@ -27,6 +27,16 @@ export const Contact = () => {
           </div>
         </div>
       </div>
+      <footer className="mt-20 text-slate-500 text-sm text-center">
+        
+        Built with <span className="text-emerald-400">React.js</span> and 
+        <span className="text-emerald-400"> Tailwind CSS</span>, deployed with 
+        <span className="text-emerald-400"> Vercel</span>. All text is set in the 
+        <span className="text-emerald-400"> Inter</span> typeface.
+        <p className="text-slate-500 text-xs mt-6">
+          © {new Date().getFullYear()} Rohit Manohar. 
+        </p>
+      </footer>
     </section>
   );
 };
