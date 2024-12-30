@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    @apply bg-slate-900;
+  }
+
+  body {
+    @apply bg-slate-900 font-sans antialiased;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-700/50 rounded-full border-4 border-solid border-slate-900;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-600;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative text-slate-400/70 hover:text-emerald-400 transition-colors duration-200;
+  }
+
+  .nav-link::before {
+    content: '';
+    @apply absolute -left-[2px] -ml-4 opacity-0 text-emerald-400 transition-opacity duration-200;
+  }
+
+  .nav-link:hover::before {
+    @apply opacity-100;
+  }
+
+  .section-heading {
+    @apply flex items-center whitespace-nowrap text-2xl font-bold text-slate-200 mb-16;
+  }
+
+  .section-heading::after {
+    content: '';
+    @apply ml-6 h-[1px] w-full bg-slate-700/50;
+  }
+}
+
+@layer utilities {
+  .vertical-rl {
+    writing-mode: vertical-rl;
+  }
+}
