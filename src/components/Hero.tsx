@@ -1,9 +1,23 @@
-import React from 'react';
-import { siteConfig } from '../data/config';
+import React from "react";
+import { siteConfig } from "../data/config";
+
 
 export const Hero = () => {
   return (
-    <section id="about" className="min-h-screen flex items-center pt-16 pb-96">
+    <section
+      id="about"
+      className="relative min-h-screen flex items-center pt-16 pb-96"
+    >
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+        src="3130284-uhd_3840_2160_30fps copy.mp4"
+        autoPlay
+        loop
+        muted
+      ></video>
+
+      {/* Content */}
       <div className="container mx-auto px-6">
         <h1 className="font-mono text-emerald-400 mb-5">Hi, my name is</h1>
         <h2 className="text-5xl md:text-7xl font-bold text-slate-200 mb-4">
@@ -12,7 +26,7 @@ export const Hero = () => {
         <h3 className="text-4xl md:text-6xl font-bold text-slate-400 mb-8">
           {siteConfig.title}
         </h3>
-        <p className="text-slate-400 max-w-xl text-lg mb-12">
+        <p className="text-white max-w-xl text-lg mb-12">
           {siteConfig.description}
         </p>
         <a

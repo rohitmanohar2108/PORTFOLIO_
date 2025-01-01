@@ -32,12 +32,20 @@ export const featuredProjects = [
     image: "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_9w7cnQaJHTwjrMP1z9YSMZhRnfjc%26teamId%3Drohits-projects-1ff89b20%26withStatus%3D1&w=1920&q=75"
   },
   {
-    title: "Portfolio",
+    title: "Portfolio-1",
     description: "This portfolio showcases my journey as a developer, featuring responsive web applications, interactive animations, and scalable software solutions, it highlights projects with seamless dark/light mode integration, smooth navigation, and engaging designs focused on user experience. Explore my work to see creativity and technology in action!",
     tech: ["React", "TypeScript", "Tailwind CSS", "Motion","GSAP"],
     github: "https://github.com/rohitmanohar2108/New_Portfolio",
     external: "https://rohit-portfolio-rust.vercel.app/",
     image: "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_Cpm1r9UibcGPswx4UuGgu9jL1tcT%26teamId%3Drohits-projects-1ff89b20%26withStatus%3D1&w=1920&q=75"
+  },
+  {
+    title: "Portfolio-2",
+    description: "Built a responsive web applications, interactive animations, and scalable software solutions, it highlights projects is smooth navigation, and engaging designs focused on user experience. Explore my work to see creativity and technology in action!",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/rohitmanohar2108/PORTFOLIO_",
+    external: "https://portfolio-wcff.vercel.app/",
+    image: "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D0%26deploymentId%3Ddpl_8dQsu31Uo3t1y4cKhCsV8oN8hmnK%26teamId%3Drohits-projects-1ff89b20%26withStatus%3D1&w=1920&q=75"
   }
 ];
 
