@@ -4,7 +4,8 @@ import { Github, ExternalLink } from "lucide-react";
 
 export const Projects = () => {
   return (
-    <section id="projects" className="py-24 ">
+    <section id="projects" className="py-24">
+      
       <div className="container mx-auto px-6">
         <h2 className="flex items-center whitespace-nowrap text-2xl font-bold text-slate-200 mb-16">
           <span className="font-mono text-emerald-400 text-lg mr-2">05.</span>

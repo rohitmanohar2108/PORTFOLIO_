@@ -24,7 +24,7 @@ export const Hero = () => {
         </p>
         <a
           href="#projects"
-          className="border border-emerald-400 text-emerald-400 px-7 py-4 rounded text-lg hover:bg-emerald-400/10 transition-colors inline-block"
+          className="z-20 relative border border-emerald-400 text-emerald-400 px-7 py-4 rounded text-lg hover:bg-emerald-400/10 transition-colors inline-block"
         >
           Check out my work!!
         </a>

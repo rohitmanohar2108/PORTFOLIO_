@@ -7,6 +7,7 @@ export const Experience = () => {
   return (
     <section id="#experience" className="py-24">
       <div className="container mx-auto px-6">
+      
         <h2 className="text-3xl font-bold text-slate-100 mb-16">Where I've Worked</h2>
         
         <div className="grid grid-cols-12 gap-4 max-w-3xl">
@@ -51,6 +52,7 @@ export const Experience = () => {
           </div>
         </div>
       </div>
+     
     </section>
   );
 };
