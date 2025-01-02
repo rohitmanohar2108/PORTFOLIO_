@@ -16,7 +16,7 @@ import { projects } from "./data/Project";
 
 export function App() {
   return (
-    <div className="bg-slate-900 text-slate-400 min-h-screen selection:bg-emerald-400/30 selection:text-emerald-400">
+    <div className="bg-slate-900 text-slate-500 min-h-screen selection:bg-emerald-400/30 selection:text-emerald-400">
       <Header />
       <CustomCursor />
       <Container className="pt-24 lg:pt-32">
