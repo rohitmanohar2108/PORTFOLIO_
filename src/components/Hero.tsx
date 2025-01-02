@@ -9,13 +9,6 @@ export const Hero = () => {
       className="relative min-h-screen flex items-center pt-16 pb-96"
     >
       {/* Background Video */}
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-        src="3130284-uhd_3840_2160_30fps copy.mp4"
-        autoPlay
-        loop
-        muted
-      ></video>
 
       {/* Content */}
       <div className="container mx-auto px-6">
