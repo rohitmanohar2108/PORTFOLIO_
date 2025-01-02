@@ -4,7 +4,7 @@ import { MapPin } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-[40%]">
+    <section id="contact" className="py-24">
       <div className="container mx-auto px-6 text-center">
         <h2 className="font-mono text-emerald-400 mb-4">What's Next?</h2>
         <h3 className="text-4xl font-bold text-slate-200 mb-6">Get In Touch</h3>

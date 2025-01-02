@@ -28,12 +28,12 @@ export function App() {
           <Skills />
 
           {/* Show Projects on mobile but hide on larger screens */}
-          <div className="lg:hidden">
+          <div className="">
             <Projects />
           </div>
 
           {/* Show ProjectSection on larger screens but hide on mobile */}
-          <div id="project" className="hidden lg:block">
+         { /*<div id="project" className="hidden lg:block">
             <h2 className="flex items-center whitespace-nowrap text-2xl font-bold text-slate-200 mb-16">
               <span className="font-mono text-emerald-400 text-lg mr-2">
                 05.
@@ -44,7 +44,7 @@ export function App() {
             {projects.map((project) => (
               <ProjectSection key={project.id} project={project} />
             ))}
-          </div>
+          </div>*/}
 
           <Contact />
           
