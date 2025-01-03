@@ -17,7 +17,7 @@ export const Contact = () => {
               <MapPin className="w-10 h-10 text-emerald-400" />
             </div>
             <h3 className="text-2xl font-bold text-white mb-4">
-              Based in NITK
+               NITK
             </h3>
             <p className="text-slate-400 max-w-md mx-auto leading-relaxed">
               Available for in-person collaboration in NITK

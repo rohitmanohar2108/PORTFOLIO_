@@ -55,7 +55,7 @@ export const Education = () => {
                     {education[activeTab].description.map((course, index) => (
                       <li
                         key={index}
-                        className="flex items-start text-slate-400"
+                        className="flex items-start text-white"
                       >
                         <span className="text-emerald-400 mr-2">▹</span>
                         {course}

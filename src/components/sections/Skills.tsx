@@ -17,7 +17,7 @@ export const Skills = () => {
             <h3 className="text-emerald-400 font-mono mb-4">Languages</h3>
             <ul className="space-y-2">
               {skills.languages.map((skill, index) => (
-                <li key={index} className="flex items-center text-slate-400">
+                <li key={index} className="flex items-center text-white">
                   <span className="text-emerald-400 mr-2">▹</span>
                   {skill}
                 </li>
@@ -30,7 +30,7 @@ export const Skills = () => {
             <h3 className="text-emerald-400 font-mono mb-4">Frameworks</h3>
             <ul className="space-y-2">
               {skills.frameworks.map((skill, index) => (
-                <li key={index} className="flex items-center text-slate-400">
+                <li key={index} className="flex items-center text-white">
                   <span className="text-emerald-400 mr-2">▹</span>
                   {skill}
                 </li>
@@ -43,7 +43,7 @@ export const Skills = () => {
             <h3 className="text-emerald-400 font-mono mb-4">Tools</h3>
             <ul className="space-y-2">
               {skills.tools.map((skill, index) => (
-                <li key={index} className="flex items-center text-slate-400">
+                <li key={index} className="flex items-center text-white">
                   <span className="text-emerald-400 mr-2">▹</span>
                   {skill}
                 </li>
@@ -56,7 +56,7 @@ export const Skills = () => {
             <h3 className="text-emerald-400 font-mono mb-4">Design</h3>
             <ul className="space-y-2">
               {skills.design.map((skill, index) => (
-                <li key={index} className="flex items-center text-slate-400">
+                <li key={index} className="flex items-center text-white">
                   <span className="text-emerald-400 mr-2">▹</span>
                   {skill}
                 </li>

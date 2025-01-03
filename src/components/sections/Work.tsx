@@ -45,7 +45,7 @@ export const Work = () => {
                 </p>
                 <ul className="space-y-4">
                   {jobs[activeTab].duties.map((duty, index) => (
-                    <li key={index} className="flex items-start text-slate-400">
+                    <li key={index} className="flex items-start text-white">
                       <span className="text-emerald-400 mr-2">▹</span>
                       {duty}
                     </li>
