@@ -13,11 +13,13 @@ import { CustomCursor } from "./components/CustomCursor";
 import ProjectSection from "./components/sections/ProjectSection";
 import { projects } from "./data/Project";
 import GeometricBackground from "./components/GeometricBackground";
+import HeroBackground from "./components/HeroBackground";
 
 
 export function App() {
   return (
     <div className="bg-slate-900 text-slate-500 min-h-screen selection:bg-emerald-400/30 selection:text-emerald-400">
+      <HeroBackground />
       <Header />
       <CustomCursor />
       <Container className="pt-24 lg:pt-32">

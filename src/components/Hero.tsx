@@ -1,5 +1,7 @@
 import React from "react";
 import { siteConfig } from "../data/config";
+import AnimatedTitle from "./AnimatedTitle";
+
 
 
 export const Hero = () => {
@@ -9,7 +11,8 @@ export const Hero = () => {
       className="relative min-h-screen flex items-center pt-16 pb-96"
     >
       {/* Background Video */}
-
+      <AnimatedTitle />
+      
       {/* Content */}
       <div className="container mx-auto px-6">
         <h1 className="font-mono text-emerald-400 mb-5">Hi, my name is</h1>
@@ -29,6 +32,7 @@ export const Hero = () => {
           Check out my work!!
         </a>
       </div>
+      
     </section>
   );
 };
