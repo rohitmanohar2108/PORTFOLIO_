@@ -7,7 +7,7 @@ const HeroBackground = () => {
       {[...Array(20)].map((_, i) => (
         <motion.div
           key={i}
-          className="absolute w-2 h-2 bg-purple-500 rounded-full"
+          className="absolute w-2 h-2 bg-emerald-400 rounded-full"
           initial={{ opacity: 0.1 }}
           animate={{
             opacity: [0.1, 0.5, 0.1],

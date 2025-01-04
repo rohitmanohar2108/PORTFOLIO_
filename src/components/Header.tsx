@@ -25,40 +25,60 @@ export const Header = () => {
     >
       <div className="container mx-auto px-6">
         <nav className="flex items-center justify-between">
-          <a href="#" className=" text-emerald-400 transform -translate-x-4 font-mono text-xl">
-            <span className=" text-white px-2 py-2 rounded-full border border-emerald-400 bg-teal-400/10">RM</span>{" "}
+          <a
+            href="https://portfolio-wcff.vercel.app/"
+            className=" text-emerald-400 transform -translate-x-4 font-mono text-xl"
+          >
+            <span className=" text-white px-2 py-2 rounded-full border border-emerald-400 bg-teal-400/10">
+              RM
+            </span>{" "}
             {siteConfig.name}
           </a>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-5">
             <a
               href="#about"
               className="text-slate-300 hover:text-emerald-400 transition-colors"
             >
+              <span className="font-bold font-mono text-emerald-400 text-base mr-1">
+                01.
+              </span>
               About
             </a>
             <a
               href="#work"
               className="text-slate-300 hover:text-emerald-400 transition-colors"
             >
+              <span className="font-bold font-mono text-emerald-400 text-base mr-1">
+                02.
+              </span>
               Experience
             </a>
             <a
               href="#education"
               className="text-slate-300 hover:text-emerald-400 transition-colors"
             >
+              <span className="font-bold font-mono text-emerald-400 text-base mr-1">
+                03.
+              </span>
               Education
             </a>
             <a
               href="#projects"
               className="text-slate-300 hover:text-emerald-400 transition-colors"
             >
+              <span className="font-bold font-mono text-emerald-400 text-base mr-1">
+                04.
+              </span>
               Projects
             </a>
             <a
               href="#contact"
               className="text-slate-300 hover:text-emerald-400 transition-colors"
             >
+              <span className="font-bold font-mono text-emerald-400 text-base mr-1">
+                05.
+              </span>
               Contact
             </a>
             <a

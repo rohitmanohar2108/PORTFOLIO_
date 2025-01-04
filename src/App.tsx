@@ -10,10 +10,10 @@ import { SocialLinks } from "./components/SocialLinks";
 import { Email } from "./components/Email";
 import { Container } from "./components/layouts/Container";
 import { CustomCursor } from "./components/CustomCursor";
-import ProjectSection from "./components/sections/ProjectSection";
-import { projects } from "./data/Project";
+
 import GeometricBackground from "./components/GeometricBackground";
 import HeroBackground from "./components/HeroBackground";
+
 
 
 export function App() {
@@ -24,7 +24,7 @@ export function App() {
       <CustomCursor />
       <Container className="pt-24 lg:pt-32">
         <main className="mx-auto max-w-[1000px]">
-       
+        
         
           <Hero />
           <Work />

@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { education } from "../../data/education";
 
+
 export const Education = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
     <section id="education" className="py-24">
+      
       <div className="container mx-auto px-6">
         <div className="flex items-center mb-16">
           <h2 className="text-3xl font-bold text-slate-100 whitespace-nowrap">

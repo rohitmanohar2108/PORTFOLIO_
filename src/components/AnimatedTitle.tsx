@@ -50,9 +50,9 @@ const AnimatedTitle = () => {
   return (
     <h1 
       ref={titleRef}
-      className="text-6xl md:text-7xl font-bold mb-8 leading-tight z-50"
+      className="text-4xl md:text-7xl  font-bold mb-8 leading-tight z-50"
     >
-      Creative Developer
+      Rohit Manohar
     </h1>
   );
 };
